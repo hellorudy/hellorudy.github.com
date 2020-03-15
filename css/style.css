@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#474747;
+    color: #adadad;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+section{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    border:thin #fff;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #363636;
+}
+img{
+    max-width: 100%;
+}
+div{
+    width: 100%;
+    height: 100%;
+}
+#background-img{
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 70%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    filter: blur(4px);
+}
+.logo{
+    position: fixed;
+    top: 10px;
+    left: 5%;
+    width: 100%;
+}
+.logo img{
+    width: 60px;
+}
+.top-title h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ff5a60;
+    font-size: 70px;
+    
+}
+.top-title h1~p{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ff5a60;
+    font-size: 40px;
+}
+.top-title h1~a{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ff5a60;
+    font-size: 40px;
+    border: solid ;
+    padding: 10px;
+    transition: 0.5s;
+}
+.top-title h1~a:hover{
+    color: #fff;
+    font-size: 45px;
+}
+nav{
+    position: fixed;
+    top: 10px;
+    left: 85%;
+}
+nav i{
+    font-size: 30px;
+    transition: 0.5s;
+}
+nav i:hover{
+    font-size: 35px;
+    color: #fff;
+}
+ol {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    font-size:18px;
+    height:2em;
+    line-height:2em;
+    text-align:center;
+  }
+ol a {
+    display:block;
+    color:#ff5a60;
+    padding:0 5px;
+  }
+ol > li {
+    width:150px;
+    margin-left:1px;
+    
+}
+ol > li:first-child {
+    margin-left:0;
+  }
+ol > li:hover > ul {
+    display:block;
+}
+ol > li > ul {
+    display:none;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+ol > li > ul > li {
+    position:relative;
+    background-color:rgba(0,0,0,0);
+}
+ol > li > ul > li > a {
+    border-top:0.5px solid #ff5a60;
+    transition: 0.5s;
+}
+ol > li > ul > li:hover > a {
+    color:#adadad;
+    font-size: 20px;
+}
+.s-img{
+    width: 40%;
+}
+
+.section-pictures{
+    position: relative;
+    top: 50px;
+    margin-bottom: 53px;
+}
+.section-pictures h1{
+    margin-bottom: 60px;
+    font-size: 60px;
+    color: #ff5a60;
+    
+}
+.section-pictures2{
+    position: relative;
+    margin: 20px auto;
+}
+.social-media{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.social-media h2{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #ff5a60;
+    text-align: center;
+}
+.social-media i{
+    color: #fff;
+    font-size: 60px;
+    transition: 0.5s;
+    width: 7%;
+}
+.social-media i:hover{
+    color: #ff5a60;
+}
+
+@media screen and (max-width: 1000px){
+    .top-title h1{
+        font-size: 25px;
+        top: 20%;
+    }
+    .top-title h1~p{
+        top: 26%;
+        font-size: 15px;
+    }
+    .top-title h1~a{
+        top: 33%;
+        font-size: 12px;
+        padding: 4px;
+    }
+    .top-title h1~a:hover{
+        color: #fff;
+        font-size: 15px;
+    }
+    .section-pictures h1{
+        margin-bottom: 25px;
+        font-size: 25px;
+        
+    }
+    .social-media h2{
+        margin-bottom: 15px;
+        font-size: 25px;
+        
+    }
+    .social-media i{
+      
+        font-size: 30px;
+        
+        width: 7%;
+    }
+    .logo img{
+        width: 40px;
+    }
+    nav{
+        
+        left: 78%;
+    }
+    nav i{
+        font-size: 17px;
+    }
+    nav i:hover{
+        font-size: 25px;
+    }
+    ol > li {
+        width:70px;
+        margin-left:1px;
+        font-size: 12px;
+    }
+    ol > li > ul > li:hover > a {
+        
+        font-size: 14px;
+    }
+    .s-img{
+        width: 90%;
+    }
+    footer{
+        font-size: 20px;
+    }
+}
